@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/fedeghigo/FinPyRL/blob/main/Image/FinPyRl.png" />
+  <img src="https://github.com/fedeghigo/Algoran_Smart_Contract/blob/main/images/algoran.jpg"  width=768 height=431  />
 </p>
 <p align="center">
   <h1 align="center">
