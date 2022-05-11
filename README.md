@@ -3,9 +3,9 @@
 </p>
 <p align="center">
   <h1 align="center">
-   Algoran Smart Contract 
+   Algorand Smart Contract 
 </h1>
 </p>
 
 
-Repository of Algoran Smart contract development in PyTeal
+Repository of Algorand Smart contract development in PyTeal
