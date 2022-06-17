@@ -34,8 +34,10 @@ st.info(
 st.info("After that you can play around; Enjoy!")
 st.balloons()
 
-algod_token = ALGOD_TOKEN
-algod_address = ALGOD_ADDRESS  #'https://testnet-algorand.api.purestake.io/ps2'
+algod_token = st.secrets["ALGOD_TOKEN"]
+algod_address = st.secrets[
+    "ALGOD_ADDRESS"
+]  #'https://testnet-algorand.api.purestake.io/ps2'
 purestake_token = {"X-Api-key": algod_token}
 
 
@@ -73,7 +75,7 @@ except:
 
 
 ####
-send_to_address = SEND_TO_ADDRESS
+send_to_address = st.secrets["SEND_TO_ADDRESS"]
 st.write("The receiving crowfounding Wallet", send_to_address)
 # Crowfounded account
 
