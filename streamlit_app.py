@@ -21,7 +21,18 @@ from PIL import Image
 image = Image.open("images/algoran.jpg")
 
 st.image(image, caption="Algorand Logo")
-ALGOD_TOKEN
+
+st.info(
+    "Dislaimer: This app is developed for Testing Purposes , we hadn't take care of Cybersecurity, please use dummy Waller"
+)
+st.info(
+    "For use it we suggest to create a Wallet throught Algosigner https://www.purestake.com/  if you use chrome https://chrome.google.com/webstore/detail/algosigner/kmmolakhbgdlpkjkcjkebenjheonagdm"
+)
+st.info(
+    "Create the Wallet in the Test Net, and fund it throught https://dispenser.testnet.aws.algodev.network/ "
+)
+st.info("After that you can play around; Enjoy!")
+st.balloons()
 
 algod_token = ALGOD_TOKEN
 algod_address = ALGOD_ADDRESS  #'https://testnet-algorand.api.purestake.io/ps2'
