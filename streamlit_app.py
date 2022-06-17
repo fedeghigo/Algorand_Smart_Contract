@@ -23,7 +23,7 @@ image = Image.open("images/algoran.jpg")
 st.image(image, caption="Algorand Logo")
 
 st.info(
-    "Dislaimer: This app is developed for Testing Purposes , we hadn't take care of Cybersecurity, please use dummy Waller"
+    "Disclaimer: This app is developed for Testing Purposes , we hadn't take care of Cybersecurity, please use dummy Wallet"
 )
 st.info(
     "For use it we suggest to create a Wallet throught Algosigner https://www.purestake.com/  if you use chrome https://chrome.google.com/webstore/detail/algosigner/kmmolakhbgdlpkjkcjkebenjheonagdm"
@@ -31,7 +31,7 @@ st.info(
 st.info(
     "Create the Wallet in the Test Net, and fund it throught https://dispenser.testnet.aws.algodev.network/ "
 )
-st.info("After that you can play around; Enjoy!")
+st.info("After that, you can play around. Enjoy!")
 st.balloons()
 
 algod_token = st.secrets["ALGOD_TOKEN"]
