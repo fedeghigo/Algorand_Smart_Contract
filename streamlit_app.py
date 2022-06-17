@@ -105,3 +105,8 @@ try:
     )
 except:
     st.info("More info on: https://pyteal.readthedocs.io/en/stable/")
+
+
+st.info("Developed by Federico.I https://www.linkedin.com/in/federico-i-5336b0139/")
+st.info("Thanks and Credit to Algorand https://www.algorand.com/")
+st.info("Thanks and Credit to Purestake.io https://developer.purestake.io/home")
